@@ -14,7 +14,6 @@ This was intended to be a teaching tool. I had several goals:
 - Familiarity with a command line
 
 ### Parameter breakdown
-
 **-i --inline**: <p>This option is for encrypting text as a parameter. Immediately after the -i or --inline needs to be your quoted text. Prints to STDOUT.</p>
 **-f --file**: <p>For encrypting the entire contents of a file. Immediately after -f or --file you need to specify a file name. Prints to STDOUT.</p>
 **-h --help**: <p>Use this option to print the help message. </p>
