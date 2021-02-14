@@ -14,32 +14,31 @@ This was intended to be a teaching tool. I had several goals:
 - Familiarity with a command line
 
 ### Parameter breakdown
-```
--i --inline     This option is for encrypting text as a parameter. Immediately after the -i or --inline needs to be your quoted text. Prints to STDOUT.
--f --file       For encrypting the entire contents of a file. Immediately after -f or --file you need to specify a file name. Prints to STDOUT.
--h --help       Use this option to print this help message. 
--t --tests      This options is for running unit tests. Immediately after -t or --tests you need to specify the path to shunit2. For more information, start here: [shUnit2](https://github.com/kward/shunit2) 
-NO OPTIONS      If you run this script without any options, it prompts you to enter text unless text is supplied via STDIN.
-```
+
+**-i --inline**: <p>This option is for encrypting text as a parameter. Immediately after the -i or --inline needs to be your quoted text. Prints to STDOUT.</p>
+**-f --file**: <p>For encrypting the entire contents of a file. Immediately after -f or --file you need to specify a file name. Prints to STDOUT.</p>
+**-h --help**: <p>Use this option to print the help message. </p>
+**-t --tests**: <p>This options is for running unit tests. Immediately after -t or --tests you need to specify the path to shunit2. For more information, start here: [shUnit2](https://github.com/kward/shunit2) </p>
+**NO OPTIONS**: <p>If you run this script without any options, it prompts you to enter text unless text is supplied via STDIN.</p>
 
 ### Examples
-Encrypting from STDIN:  
+**Encrypting from STDIN:**  
 `$ echo 'dogs are good' | ./rot.sh`
 
-Encrypting text as a parameter:  
+**Encrypting text as a parameter:**  
 `$ ./rot.sh -i "we don't deserve dogs"`
 
-Encrypting from a prompt:  
+**Encrypting from a prompt:**  
 `$ ./rot.sh`  
 `type your input on the next line, then hit enter`
 
-Asking for help:  
+**Asking for help:**  
 `$ ./rot.sh -h`
 
-Encrypting a file:  
+**Encrypting a file:**  
 `$ ./rot.sh -f filename`
 
-Running the unit tests:  
+**Running the unit tests:**  
 `$ ./rot -t /path/to/shunit2`
 
 ## Further reading
