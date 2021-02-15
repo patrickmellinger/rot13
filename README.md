@@ -57,8 +57,11 @@
 - Start by cloning this git repository someplace memorable.  
 - You can do future upgrades by pulling the latest version of this git repository.  
 
-    $ alias rot13='/path/to/rot13/rot.sh'
-    $ rot13 --help # to test it was installed correctly
+```bash
+$ alias rot13='/path/to/rot13/rot.sh'
+$ rot13 --help 
+   # To test it was installed correctly
+```
 
 #### Method 2, adding it to your path
 <p> There are a few considerations to keep in mind, but I won't spend too much time on them. There are details in the further reading section if you're interested:</p>
@@ -68,12 +71,15 @@
 - You can follow these directions again (overwriting the existing) if you need to do an upgrade in the future.  
 - Download the release files, or clone the repo to somewhere on the filesystem to begin:  
 
-    $ cd /path/to/rot13
-    $ echo $PATH
-    Look through the output, and pick a directory that seems appropriate. Something in ~/, or /home/yourusername/ is potentially the best choice. I will refer to the folder you just chose as /your/destination/path
-    $ cp rot.sh rot13
-    $ mv rot13 /your/destination/path
-    $ rot13 --help # to test it was installed correctly
+```bash
+$ cd /path/to/rot13
+$ echo $PATH
+   # Look through the output, and pick a directory that seems appropriate. Something in ~/, or /home/yourusername/ is potentially the best choice. I will refer to the folder you just chose as /your/destination/path
+$ cp rot.sh rot13
+$ mv rot13 /your/destination/path
+$ rot13 --help 
+   # To test it was installed correctly
+```
 
 ## Further reading
 - Want to know more about ROT13? [ROT13 Wikipedia](https://en.wikipedia.org/wiki/ROT13)
