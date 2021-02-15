@@ -53,17 +53,19 @@
 
 #### Method 1, adding an alias (PREFERRED)
 <p>While this isn't technically an *installation*, it achieves similar functionality without some of the sacrifices of Method 2.</p>
-- Start by cloning this git repository someplace memorable.
-- You can do future upgrades by pulling the latest version of this git repository.
+- Start by cloning this git repository someplace memorable.  
+- You can do future upgrades by pulling the latest version of this git repository.  
+
     $ alias rot13='/path/to/rot13/rot.sh'
     $ rot13 --help # to test it was installed correctly
 
 #### Method 2, adding it to your path
 <p> There are a few considerations to keep in mind, but I won't spend too much time on them. There are details in the further reading section if you're interested:</p>
-- It's not fun to have an installed utility that has a file extension. I have chosen to rename it to "rot13", because it is easy to remember and is less likely to collide with other installed tools.
-- There are many correct ways to do this, this is just one example.
-- You can follow these directions again (overwriting the existing) if you need to do an upgrade in the future.
+- It's not fun to have an installed utility that has a file extension. I have chosen to rename it to "rot13", because it is easy to remember and is less likely to collide with other installed tools.  
+- There are many correct ways to do this, this is just one example.  
+- You can follow these directions again (overwriting the existing) if you need to do an upgrade in the future.  
 - Download the release files, or clone the repo to somewhere on the filesystem to begin:  
+
     $ cd /path/to/rot13
     $ echo $PATH
     Look through the output, and pick a directory that seems appropriate. Something in ~/, or /home/yourusername/ is potentially the best choice. I will refer to the folder you just chose as /your/destination/path
