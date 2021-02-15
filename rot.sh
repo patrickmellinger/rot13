@@ -1,5 +1,7 @@
 #!/bin/bash
 # A simple utility for manipulating strings with the ROT13 substitution cipher
+# Written by Patrick Mellinger, mellingerpat@gmail.com
+# https://github.com/patrickmellinger/rot13
 # set unoffical bash strict mode
 set -euo pipefail
 
@@ -79,6 +81,8 @@ function aytch {
 		
 	    Encrypting a file:
 	    ./${SCRIPTNAME} -f filename
+
+	    FOR MORE INFORMATION: https://github.com/patrickmellinger/rot13
 
 Transmission_terminated
 }
