@@ -56,6 +56,7 @@
 - You can do future upgrades by pulling the latest version of this git repository.
     $ alias rot13='/path/to/rot13/rot.sh'
     $ rot13 --help # to test it was installed correctly
+
 #### Method 2, adding it to your path
 <p> There are a few considerations to keep in mind, but I won't spend too much time on them. There are details in the further reading section if you're interested:</p>
 - It's not fun to have an installed utility that has a file extension. I have chosen to rename it to "rot13", because it is easy to remember and is less likely to collide with other installed tools.
