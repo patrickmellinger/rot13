@@ -59,6 +59,7 @@
 
 ```bash
 $ alias rot13='/path/to/rot13/rot.sh'
+   # Put this command in your ~/.bashrc file to make it permanent
 $ rot13 --help 
    # To test it was installed correctly
 ```
