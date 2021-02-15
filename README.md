@@ -50,6 +50,7 @@
 
 ### Installation
 <p> If you are interested in having rot13 available as an installed utility, these instructions will help with that. Because this is a teaching tool, we'll do the install manually. :sunglasses:</p>
+
 #### Method 1, adding an alias (PREFERRED)
 <p>While this isn't technically an *installation*, it achieves similar functionality without some of the sacrifices of Method 2.</p>
 - Start by cloning this git repository someplace memorable.
